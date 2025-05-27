@@ -11,7 +11,7 @@ A simple bot that replies with a random meme from Reddit when you type $meme.
 
 
 3. Create App on replt
-   Go to [Replit](https://replit.com/~)) → Creatw App → python → Copy files.
+   Go to [Replit](https://replit.com/~) → Creatw App → python → Copy files.
    requirements.txt:
    discord.py==1.3.1
    flask
