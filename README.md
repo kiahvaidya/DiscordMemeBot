@@ -1,5 +1,5 @@
 # 🤖 Meme Discord Bot (Python + Replit + Uptime)
-This is a Python-based Discord bot deployed on [Replit]([(https://replit.com/~)]) and kept alive 24/7 using a lightweight Flask web server and [Uptime]([(https://uptimerobot.com/)]).
+This is a Python-based Discord bot deployed on [Replit](https://replit.com/~) and kept alive 24/7 using a lightweight Flask web server and [Uptime](https://uptimerobot.com/).
 A simple bot that replies with a random meme from Reddit when you type $meme.
 
 1. Create Bot on Discord:  
