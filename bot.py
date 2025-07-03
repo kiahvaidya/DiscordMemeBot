@@ -26,5 +26,5 @@ intents.message_content = True
 
 client = MyClient(intents=intents)
 
-TOKEN = os.getenv('TOKEN')  # Load token from environment variable
+TOKEN = os.getenv('DISCORD_TOKEN')  # Load token from environment variable
 client.run(TOKEN)
