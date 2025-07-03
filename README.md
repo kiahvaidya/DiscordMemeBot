@@ -1,5 +1,5 @@
 # 🤖 Meme Discord Bot (Python + Railway)
-This is a Python-based Discord bot deployed on [Railway](https://railway.app) and kept alive 24/7 using a lightweight Flask web server.
+This is a Python-based Discord bot deployed on [Render](https://render.com) and kept alive 24/7 using a lightweight Flask web server.
 A simple bot that replies with a random meme from Reddit when you type $meme.
 
 1. Create Bot on Discord:  
@@ -13,9 +13,9 @@ A simple bot that replies with a random meme from Reddit when you type $meme.
 3.  Deploy to Railway
    Push this project to GitHub.
 
-   Go to Railway → New Project → Deploy from GitHub.
+   Go to Render → New Project → Deploy from GitHub.
 
-   Add environment variables (DISCORD_TOKEN) in the Railway dashboard.
+   Add environment variables (DISCORD_TOKEN) in the Render dashboard.
 
    Set start command:
    python main.py
