@@ -2,11 +2,9 @@ import os
 import discord
 import requests
 import json
-from keep_alive import keep_alive
 from dotenv import load_dotenv
 
-load_dotenv()       # Loads .env variables when testing locally
-keep_alive()        # Starts the keep_alive Flask server
+load_dotenv()       # Loads .env variables when testing locally     
 
 def get_meme():
     response = requests.get('https://meme-api.com/gimme')
