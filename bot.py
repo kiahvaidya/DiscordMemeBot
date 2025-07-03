@@ -2,9 +2,11 @@ import os
 import discord
 import requests
 import json
+from keep_alive import keep_alive
 from dotenv import load_dotenv
 
-load_dotenv()       # Loads .env variables when testing locally     
+load_dotenv()
+keep_alive()
 
 def get_meme():
     response = requests.get('https://meme-api.com/gimme')
