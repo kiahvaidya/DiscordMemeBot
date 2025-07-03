@@ -4,8 +4,6 @@ import requests
 import json
 from dotenv import load_dotenv
 
-const port = process.env.PORT || 8000 
-
 load_dotenv()       # Loads .env variables when testing locally     
 
 def get_meme():
