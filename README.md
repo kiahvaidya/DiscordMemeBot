@@ -1,4 +1,4 @@
-# 🤖 Meme Discord Bot (Python + Railway)
+# 🤖 Meme Discord Bot (Python + Render)
 This is a Python-based Discord bot deployed on [Render](https://render.com) and kept alive 24/7 using a lightweight Flask web server.
 A simple bot that replies with a random meme from Reddit when you type $meme.
 
